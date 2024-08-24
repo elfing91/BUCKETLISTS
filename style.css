@@ -43,11 +43,13 @@ h1{
     color: #FF007A;
     font-size: 24px;
     font-weight: bold;
+    height: 28px;
 
 }
 
 h1::before{
     content: ".";
+
     width: 8px;
     height: 32px;
     background-color: #FF007A;
@@ -64,7 +66,7 @@ h1::before{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top: 4px solid #DDDDDD;
-    padding: 40px 38px 38px;
+    padding: 36px 38px 38px;
     box-sizing: border-box;
 }
 
@@ -77,11 +79,29 @@ ul{
 }
 
 li{
+    
     font-weight: bold;
     background-color: #FFFFFF;
     color: #888888;
     border: 4px solid #D9D9D9 ;
     border-radius: 10px;
-    padding-left: 14px;
-    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 14px;
+    padding-top: 11px;
+    box-sizing: border-box;
+}
+
+p{
+    height: 18px;
+}
+
+li:hover{
+    border: 4px solid #759CFF;
+    color: #759CFF;
+    background-image: url(images/check.png);
+    background-position: right 10px center;
+    /*오른쪽 끝에서 10px 떨어진 위치에 배경 이미지의 오른쪽 엣지가 위치합니다
+    수직 방향으로는 중앙에 맞춰 배치.*/
+    background-repeat: no-repeat;
+   
 }
