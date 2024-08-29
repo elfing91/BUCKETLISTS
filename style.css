@@ -37,12 +37,12 @@ body{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
-    padding: 44px 0;
+    padding: 44px 0;/*✨아예형식을 바꿈!*/
 
     box-sizing: border-box;
 }
 
-h1{
+h1{/*✨before을 제거하고 왼쪽 보더 추가/ 높이를 보더크기만큼 설정*/
     color: #FF007A;
     font-size: 24px;
     font-weight: bold;
